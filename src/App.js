@@ -6,7 +6,7 @@ function App() {
   const [text, setText] = useState("");
   return (
     <div className="App">
-      <h1>nErDrAgE</h1>
+      <h1>aLtCaPs</h1>
       <textarea value={text} onChange={(e) => setText(e.target.value)} />
       <p>{ragify(text)}</p>
     </div>
