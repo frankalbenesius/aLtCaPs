@@ -11,6 +11,8 @@ jobs:
     with:
       build: true
       site-name: altcaps
+      dist-dir: build
+      node-version: "16"
     secrets:
       SSH_KEY: ${{ secrets.HOMELAB_DEPLOY_SSH_KEY }}
       KNOWN_HOSTS: ${{ secrets.HOMELAB_KNOWN_HOSTS }}
